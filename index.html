@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Cutie 🌹</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="floating-items" id="floatingItems"></div>
+    
+    <div class="card-container">
+        <!-- Screen 1: Loading -->
+        <div class="loading-screen" id="loadingScreen">
+            <div class="hearts">
+                <span style="color: #e75a88;">❤</span>
+                <span style="color: #e75a88;">❤</span>
+                <span style="color: #9370db;">❤</span>
+            </div>
+            <div class="loading-text">Loading something special...</div>
+            <div class="gift-icons">
+                <span>🎂</span>
+                <span>✨</span>
+                <span>🎁</span>
+                <span>❤️</span>
+                <span>🌹</span>
+            </div>
+        </div>
+        
+        <!-- Screen 2: Countdown -->
+        <div class="countdown-screen" id="countdownScreen">
+            <div class="countdown-header">Your Special Day is Almost Here Baby❤️</div>
+            <div class="countdown-timer">
+                <div class="time-block">
+                    <div class="time-value" id="days">0</div>
+                    <div class="time-label">Days</div>
+                    <div class="icon-under">❤</div>
+                </div>
+                <div class="time-block">
+                    <div class="time-value" id="hours">0</div>
+                    <div class="time-label">Hours</div>
+                    <div class="icon-under">🎁</div>
+                </div>
+                <div class="time-block">
+                    <div class="time-value" id="minutes">0</div>
+                    <div class="time-label">Minutes</div>
+                    <div class="icon-under">🎂</div>
+                </div>
+                <div class="time-block">
+                    <div class="time-value" id="seconds">0</div>
+                    <div class="time-label">Seconds</div>
+                    <div class="icon-under">⭐</div>
+                </div>
+            </div>
+            <div class="message-block">
+                Just a little more... A small gift for my favorite person❤️
+                <div class="dots">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Screen 3: Ready -->
+        <div class="ready-screen" id="readyScreen">
+            <div class="countdown-header">Your Special Day is Almost Here Baby ❤️</div>
+            <div class="countdown-message">It's time to celebrate!</div>
+            <div class="message-block">
+                Just a little more... A small gift for my favorite person❤️
+                <div class="dots">
+                    <span></span>
+                </div>
+            </div>
+            <div class="button-container">
+                <button class="btn" id="forYouBtn">
+                    🎉 For you →
+                </button>
+            </div>
+        </div>
+        
+        <!-- Screen 4: Card -->
+        <div class="card-screen" id="cardScreen">
+            <div class="birthday-title">Happy Birthday!</div>
+            <div class="birthday-icons">🎂 ✨ ❤</div>
+            <div class="subtitle">To My Love ❤</div>
+            
+            <div class="gift-card" id="giftCard">
+                <div>Tap to open your card</div>
+                <div class="gift-icon">🎁</div>
+            </div>
+            
+            <div class="opened-card" id="openedCard">
+                <div class="card-message">
+                    Just wanted to remind you—you're my favorite person. My days are better, smiles are wider, and life is sweeter because of you.
+                </div>
+                <div class="card-message" style="color: #e75a88;">
+                    I hope your birthday is full of love, magic, and everything that makes you smile ❤️
+                </div>
+            </div>
+            
+            <div class="wish-text">
+                May every wish you make today come true. You deserve the world Cutuu, and I'll always be here to remind you of that.
+            </div>
+            <div class="wish-text" style="color: #e75a88;">
+                Let's always stay like this... together, forever 🔒
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
